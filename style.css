@@ -1,3 +1,17 @@
-.planet {
+body {
+}
 
+.planet {
+    display: inline-block;
+    margin: 0.5em;
+    box-shadow: 1px 1px 6px 0px rgba(145, 145, 145, 1);
+}
+
+.planet p {
+    margin: 0.2em;
+}
+
+.planet img {
+    display: inline;
+    max-width: 10%;
 }
