@@ -3,6 +3,7 @@ body {
 
 .planet {
     display: inline-block;
+    padding: 0.5em;
     margin: 0.5em;
     box-shadow: 1px 1px 6px 0px rgba(145, 145, 145, 1);
 }
@@ -13,5 +14,5 @@ body {
 
 .planet img {
     display: inline;
-    max-width: 10%;
+    max-width: 20%;
 }
