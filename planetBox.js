@@ -15,7 +15,7 @@ class planetBox {
         for (let i = (numberOfPlanets + 1); i <= numberOfPlanets + 10; i++) {
             let planet = await fetchPlanet(i);
             if (planet !== false) {
-                this.planets[i] = planet;
+                this.planets.push(planet);
             }
         }
     }
